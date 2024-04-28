@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+        <script>
+
+            function pregunta1(respuesta)
+            {
+                if (respuesta == 4)
+                {
+                    let parrafo = document.querySelector("#feedback");
+                    parrafo.innerHTML = "Correct!";
+                    let respuesta = document.querySelector(".correct");
+                    respuesta.style.backgroundColor = "green";
+                }
+                else
+                {
+                    let parrafo = document.querySelector("#feedback");
+                    parrafo.innerHTML = "Incorrect";
+                    if (respuesta == 2)
+                    {
+                        let respuesta = document.querySelector(".incorrect");
+                        respuesta.style.backgroundColor = "red";
+                    }
+                    else
+                    {
+                        let respuesta = document.querySelector(".incorrect2");
+                        respuesta.style.backgroundColor = "red";
+                    }
+                }
+
+            }
+
+            function pregunta2()
+            {
+                var input = document.querySelector("#respuesta2");
+                var respuesta = input.value;
+                if (respuesta == "Russia")
+                {
+                    let parrafo = document.querySelector("#feedback2");
+                    parrafo.innerHTML = "Correct!";
+                    input.style.backgroundColor = "green";
+                }
+                else
+                {
+                    let parrafo = document.querySelector("#feedback2");
+                    parrafo.innerHTML = "Incorrect";
+                    input.style.backgroundColor = "red";
+                }
+            }
+            // TODO: Add code to check answers to questions
+        </script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <h3>Wich is the result of: 2 + 2</h3>
+
+                <button class="incorrect" onclick="pregunta1(2)" >2</button>
+                <button class="correct" onclick="pregunta1(4)" >4</button>
+                <button class="incorrect2" onclick="pregunta1(5)" >5</button>
+                <p id="feedback"></p>
+
+                <!-- TODO: Add multiple choice question here -->
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <h3>Wich is the biggest country in the world?</h3>
+                <input id="respuesta2" type="text"></input>
+                <button onclick="pregunta2()">Check answer</button>
+                <p id="feedback2"></p>
+                <!-- TODO: Add free response question here -->
+            </div>
+        </div>
+    </body>
+</html>

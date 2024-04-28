@@ -1,0 +1,1 @@
+SELECT title FROM people, movies, stars WHERE movies.id = stars.movie_id AND stars.person_id = people.id AND people.name = "Bradley Cooper" INTERSECT SELECT title FROM people, movies, stars WHERE movies.id = stars.movie_id AND stars.person_id = people.id AND people.name = "Jennifer Lawrence";

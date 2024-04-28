@@ -1,0 +1,27 @@
+img.small{
+    width: 400px;
+    height: 370px;
+  }
+
+body{
+  background-image: url("fondo.jpg");
+  background-size: cover;
+}
+
+div.center{
+  text-align: center;
+}
+
+ul.center{
+  display: inline-block;
+  text-align: left;
+}
+
+h5{
+  font-size: 20px;
+}
+
+button.bigger{
+  width: 100px;
+  height: 50px;
+}

@@ -1,0 +1,11 @@
+sort1 uses: Bubble Sort
+
+How do you know?: It is slow sorting random numbers. And the time spent by sorting sorted numbers its linear.
+
+sort2 uses: Merge Sort
+
+How do you know?: It is the fastest program sorting random and reverse numbers by a lot.
+
+sort3 uses: Selection Sort
+
+How do you know?: It is faster than sort1 in reversed and random but not in sorted, and is slower sorting all 3 types than sort2.

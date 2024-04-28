@@ -1,0 +1,3 @@
+I would get the average of the energy, valence and danceability of their 100 most hear songs [SELECT AVG(valence) + AVG(danceability) + AVG(energy) / 3 FROM songs;]
+
+I would propose to calculate the average by also calculating how many times the usear heared each song so the results would reflect a more acurrate result.
