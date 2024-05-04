@@ -1,5 +1,5 @@
 # Truco B0T
-#### Video Demo: https://youtu.be/_CpGWQhEWkg
+
 ### What is my project?
 
 Mi Project is a Windows application that allows you to play the popular Argentinian card game, Truco, against a bot. Truco is a zero-sum, imperfect information game that uses a Spanish deck without 8s, 9s, and jokers. It can be played by 2, 4, or 6 players divided into two teams, with the objective of reaching 30 points. For shorter matches, the game can be played until 15 points.
