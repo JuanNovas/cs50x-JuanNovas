@@ -17,3 +17,7 @@ This course teaches you how to solve problems, both with and without code, with 
 - Flask
 - Algorithms
 - Problem solving
+
+## 🎓 Diploma
+![Diploma](diploma.png)
+[Verification link](https://certificates.cs50.io/12ac2dc2-ec13-403f-8fd3-17ff36458d0b.pdf?size=letter)
